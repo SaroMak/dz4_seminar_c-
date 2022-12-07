@@ -4,7 +4,7 @@
 
 Console.Clear();
 
-int[] SetArray(int size, int leftRange, int rightRange) // 
+int[] SetArray(int size, int leftRange, int rightRange) // добавили рамки в пределах 100 ,чтобы в консоле не выводил массив с большими цифрами
 {
     Random rand = new Random();
 
